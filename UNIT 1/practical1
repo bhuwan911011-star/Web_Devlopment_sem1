@@ -1,0 +1,13 @@
+<!--making heading, paragraph, formating tag in HTML -->
+<html>
+<head><tile>using basic html elements</title></head>
+<body>
+<h1>My name is BHUWAN KUMAR</h1><br>
+<p>I live in DS Hostel</p><br>
+<i>this is italic fonts are used</i><br>
+<u>this give under line</u><br>
+<b>this gives bold</b><br><br>
+<mark>this is mark</mark><br>
+<small>this will make small</small>
+</body>
+</html>
