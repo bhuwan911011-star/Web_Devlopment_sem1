@@ -15,8 +15,6 @@ body{
     background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
     color:white;
 }
-
-/* NAV */
 nav{
     display:flex;
     justify-content:space-between;
@@ -36,8 +34,6 @@ nav a{
 nav a:hover{
     color:#00e5ff;
 }
-
-/* HERO */
 .hero{
     min-height:90vh;
     display:flex;
@@ -60,8 +56,6 @@ nav a:hover{
     text-decoration:none;
     font-weight:600;
 }
-
-/* ROW CONTAINER */
 .row-box{
     width:90%;
     margin:40px auto;
@@ -81,8 +75,6 @@ nav a:hover{
     transform:translateY(-8px) scale(1.02);
     box-shadow:0 25px 60px rgba(0,229,255,0.35);
 }
-
-/* TEXT */
 .row-text{
     flex:1;
 }
@@ -91,8 +83,6 @@ nav a:hover{
     margin-bottom:15px;
     color:#00e5ff;
 }
-
-/* SKILLS */
 .skill-list{
     display:flex;
     gap:15px;
@@ -105,8 +95,6 @@ nav a:hover{
     color:black;
     font-weight:600;
 }
-
-/* PROJECTS */
 .project-grid{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
@@ -131,8 +119,6 @@ nav a:hover{
     font-size:15px;
     line-height:1.6;
 }
-
-/* CERTIFICATES */
 .cert-row{
     display:flex;
     gap:25px;
@@ -152,8 +138,6 @@ nav a:hover{
     color:black;
     transform:scale(1.1);
 }
-
-/* MODAL */
 .modal{
     display:none;
     position:fixed;
@@ -170,14 +154,10 @@ nav a:hover{
 .modal:target{
     display:flex;
 }
-
-/* CONTACT */
 .contact p{
     font-size:18px;
     margin:8px 0;
 }
-
-/* RESPONSIVE */
 @media(max-width:900px){
     nav{
         flex-direction:column;
@@ -208,8 +188,6 @@ nav a:hover{
         <li><a href="#contact">Contact</a></li>
     </ul>
 </nav>
-
-<!-- HERO -->
 <div class="hero">
     <div>
         <h1>Hi, I'm <span>Bhuwan Kumar</span></h1>
@@ -217,8 +195,6 @@ nav a:hover{
         <a href="#projects" class="btn">View Projects</a>
     </div>
 </div>
-
-<!-- ABOUT -->
 <section id="about" class="row-box">
     <div class="row-text">
         <h2>About Me</h2>
@@ -228,8 +204,6 @@ nav a:hover{
         </p>
     </div>
 </section>
-
-<!-- SKILLS -->
 <section id="skills" class="row-box">
     <div class="row-text">
         <h2>Skills</h2>
@@ -241,8 +215,6 @@ nav a:hover{
         </div>
     </div>
 </section>
-
-<!-- PROJECTS -->
 <section id="projects" class="row-box">
     <div class="row-text">
         <h2>Projects</h2>
@@ -262,8 +234,6 @@ nav a:hover{
         </div>
     </div>
 </section>
-
-<!-- CERTIFICATES -->
 <section id="certificates" class="row-box">
     <div class="row-text">
         <h2>Certificates</h2>
@@ -273,8 +243,6 @@ nav a:hover{
         </div>
     </div>
 </section>
-
-<!-- MODALS -->
 <div id="htmlCert" class="modal">
     <a href="#">
         <img src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~4G2E22QTKZTI/CERTIFICATE_LANDING_PAGE~4G2E22QTKZTI.jpeg">
@@ -286,8 +254,6 @@ nav a:hover{
         <img src="https://coursera-certificate-images.s3.amazonaws.com/JH8F2FTZZA6X">
     </a>
 </div>
-
-<!-- CONTACT -->
 <section id="contact" class="row-box contact">
     <div class="row-text">
         <h2>Contact</h2>
@@ -299,3 +265,4 @@ nav a:hover{
 
 </body>
 </html>
+
